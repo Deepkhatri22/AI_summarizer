@@ -1,5 +1,6 @@
 import React from "react";
 import { SiOpenai } from "react-icons/si";
+import logo from "../assets/ailogo.png"
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="flex gap-2 flex-wrap justify-center items-center">
           <p className="text-white text-sm sm:text-xl italic">Powered by</p>
-          <img src="/ailogo.png" className="w-6 h-5 sm:w-9 sm:h-7" alt="" />
+          <img src= {logo} className="w-6 h-5 sm:w-9 sm:h-7" alt="" />
         </div>
       </nav>
       <h1 className="head_text text-3xl sm:text-7xl text-center mb-4">
